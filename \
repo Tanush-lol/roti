@@ -1,0 +1,47 @@
+#include <dirent.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+void scan_apps_in_directory(const char *dir_path);
+
+int main(void) {
+    const char *xdg_dirs = getenv("XDG_DATA_DIRS");
+    if (!xdg_dirs)
+        return 1;
+
+    char *dirs = strdup(xdg_dirs);
+    if (!dirs)
+        return 1;
+
+    char app_dir[4096];
+
+    for (char *dir = strtok(dirs, ":");
+         dir != NULL;
+         dir = strtok(NULL, ":")) {
+
+        snprintf(app_dir, sizeof(app_dir),
+                 "%s/applications", dir);
+
+        scan_apps_in_directory(app_dir);
+    }
+
+    free(dirs);
+    return 0;
+}
+void scan_apps_in_directory(const char *dir_path) {
+    DIR *dir = opendir(dir_path);
+    if (!dir)
+        return;
+
+    struct dirent *entry;
+    while ((entry = readdir(dir)) != NULL) {
+        if (strcmp(entry->d_name, ".") == 0 ||
+            strcmp(entry->d_name, "..") == 0)
+            continue;
+
+        printf("%s\n", entry->d_name);
+    }
+
+    closedir(dir);
+}
