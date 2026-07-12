@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 
-struct wl_display *display;
 
 int main(){
-  display =  wl_display_connect(NULL);
+
+  struct wl_display *display =  wl_display_connect(NULL);
 
   if (!display) {
     printf("Error\n");
@@ -14,5 +14,6 @@ int main(){
     printf("Successfull");
   }
 
+  wl_display_disconnect(display);
   return 0;
 }
