@@ -2,31 +2,35 @@
 #include <stdio.h>
 #include <wayland-client.h>
 #include <string.h>
-
 struct our_state{
   struct wl_compositor  *compositor;
+  struct wl_shm *shm;
 };
-
-    struct our_state state ;
 static void registry_handle_global(void *data, struct wl_registry *registry,uint32_t name, const char *interface,uint32_t version)
 {
-    state.compositor = data;
+    struct our_state *state = data ;
     if (strcmp(interface, wl_compositor_interface.name) == 0) {
-        state.compositor = wl_registry_bind(
-            registry, name, &wl_compositor_interface, 4);
+       printf("interface:     %s\ncomp_interface:%s \n",interface,wl_compositor_interface.name);
+       printf("interface and wl_compositor_interface are equal\n");
+        state->compositor = wl_registry_bind(
+            registry, name, &wl_compositor_interface,1);
+    }
+  // at interface = wl_compositor_interface.name we are letting the client create a client-side handle 
+
+    if (strcmp(interface, wl_shm_interface.name) == 0 ) {
+     printf("interface:     %s\nshm_interface:%s \n",interface,wl_shm_interface.name);
+     printf("interface and wl_shm_interface.name are equal\n");
+      state->shm = wl_registry_bind(registry,name,&wl_shm_interface,1); 
     }
 }
-
 static void registry_handle_global_remove(void *data, struct wl_registry *registry,
 		uint32_t name)
 {
 }
-
 static const struct wl_registry_listener registry_listener = {
 	.global = registry_handle_global,
 	.global_remove = registry_handle_global_remove,
 };
-
 int
 main(int argc, char *argv[])
 {
@@ -35,9 +39,9 @@ main(int argc, char *argv[])
     return -1;
   }
 	struct wl_registry *registry = wl_display_get_registry(display);
-  
+  struct our_state state = {0};
 	wl_registry_add_listener(registry, &registry_listener, &state);
-
 	wl_display_roundtrip(display);
 	return 0;
 }
+
