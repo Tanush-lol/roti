@@ -36,6 +36,7 @@ if your look closely **state** the fields are
   struct wl_shm *shm;
  and more
 and so we are using the fields to communicate with the server to render a window
+we pass state first time to let the server know what fields of registry are we gonna work with and 2nd time in global function to actually use those functions
 
 # part 3
 we pass in fields `(void *data, struct wl_registry *registry,uint32_t name, const char *interface,uint32_t version)` into the global function now these parameters are sent from the compositor and hence used to bind 
@@ -48,4 +49,4 @@ we pass in fields `(void *data, struct wl_registry *registry,uint32_t name, cons
 inside the global function we loop over interfaces as supplied by the compositor and when `strcmp(interface, wl_compositor_interface.name) == 0` i.e interface and wl_compositor_interface.name are same we bind 
 
 ### what do we bind ?
-we use the function 
+we use the function wl_registry_bind function to bind data from the compositor to the struct our_state and the integer we passed on is just version protocol

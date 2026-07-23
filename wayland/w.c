@@ -11,11 +11,10 @@ static void registry_handle_global(void *data, struct wl_registry *registry,uint
     struct our_state *state = data ;
     if (strcmp(interface, wl_compositor_interface.name) == 0) {
        printf("interface:     %s\ncomp_interface:%s \n",interface,wl_compositor_interface.name);
-       printf("interface and wl_compositor_interface are equal\n");
+       printf("interface and wl_compositor_interface are equal\n");    
         state->compositor = wl_registry_bind(
             registry, name, &wl_compositor_interface,1);
     }
-  // at interface = wl_compositor_interface.name we are letting the client create a client-side handle 
 
     if (strcmp(interface, wl_shm_interface.name) == 0 ) {
      printf("interface:     %s\nshm_interface:%s \n",interface,wl_shm_interface.name);
