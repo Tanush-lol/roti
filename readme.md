@@ -50,3 +50,9 @@ inside the global function we loop over interfaces as supplied by the compositor
 
 ### what do we bind ?
 we use the function wl_registry_bind function to bind data from the compositor to the struct our_state and the integer we passed on is just version protocol
+
+next we use wl_surface which is an object used to create a surface this won't be visible btw 
+
+# part 5 
+
+now we need to use XDG shell for rendering a surface

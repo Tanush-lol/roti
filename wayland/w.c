@@ -5,6 +5,8 @@
 struct our_state{
   struct wl_compositor  *compositor;
   struct wl_shm *shm;
+  struct wl_surface *surface;
+  struct wl_buffer *buffer = wl_shm_pool_create_buffer(pool, offset,width, height, stride, WL_SHM_FORMAT_XRGB8888);
 };
 static void registry_handle_global(void *data, struct wl_registry *registry,uint32_t name, const char *interface,uint32_t version)
 {
@@ -41,6 +43,7 @@ main(int argc, char *argv[])
   struct our_state state = {0};
 	wl_registry_add_listener(registry, &registry_listener, &state);
 	wl_display_roundtrip(display);
+  state.surface = wl_compositor_create_surface(state.compositor);
 	return 0;
 }
 
