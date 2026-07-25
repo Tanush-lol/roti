@@ -2,12 +2,15 @@
 #include <stdio.h>
 #include <wayland-client.h>
 #include <string.h>
+#include <sys/mman.h>
+
 struct our_state{
   struct wl_compositor  *compositor;
   struct wl_shm *shm;
   struct wl_surface *surface;
-  struct wl_buffer *buffer = wl_shm_pool_create_buffer(pool, offset,width, height, stride, WL_SHM_FORMAT_XRGB8888);
+  struct wl_buffer *buffer;
 };
+
 static void registry_handle_global(void *data, struct wl_registry *registry,uint32_t name, const char *interface,uint32_t version)
 {
     struct our_state *state = data ;
@@ -25,16 +28,20 @@ static void registry_handle_global(void *data, struct wl_registry *registry,uint
     }
 }
 static void registry_handle_global_remove(void *data, struct wl_registry *registry,
-		uint32_t name)
-{
+		uint32_t name){
 }
+
 static const struct wl_registry_listener registry_listener = {
 	.global = registry_handle_global,
 	.global_remove = registry_handle_global_remove,
 };
-int
-main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]){
+  const int width = 1920 , height = 1080;
+  const int stride = width * 4;
+  const int shm_pool_size = height * stride * 2;
+
+  int fd;
+  
 	struct wl_display *display = wl_display_connect(0);
   if (!display) {
     return -1;
