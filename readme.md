@@ -56,3 +56,11 @@ next we use wl_surface which is an object used to create a surface this won't be
 # part 5 
 
 now we need to use XDG shell for rendering a surface
+
+
+***find /nix/store -path "*/bin/*<span style='color: red;'>package name</span>*"**
+use this command to find packages on your desktop
+for nixos 
+pkg-config --variable=pkgdatadir wayland-protocols
+
+A very  sentence.
