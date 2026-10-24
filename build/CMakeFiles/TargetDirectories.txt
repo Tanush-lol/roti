@@ -1,0 +1,3 @@
+/home/tanush/Projects/roti/roti/build/CMakeFiles/roti.dir
+/home/tanush/Projects/roti/roti/build/CMakeFiles/edit_cache.dir
+/home/tanush/Projects/roti/roti/build/CMakeFiles/rebuild_cache.dir

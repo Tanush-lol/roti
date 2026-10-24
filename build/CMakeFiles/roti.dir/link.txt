@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/roti.dir/link.d CMakeFiles/roti.dir/src/main.c.o CMakeFiles/roti.dir/src/shm.c.o CMakeFiles/roti.dir/src/cairo.c.o CMakeFiles/roti.dir/src/xdg_surface.c.o CMakeFiles/roti.dir/src/buffer.c.o "CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o" -o roti  -lm /usr/lib/libwayland-client.so -lm /usr/lib/libcairo.so
