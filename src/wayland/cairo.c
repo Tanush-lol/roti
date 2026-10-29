@@ -103,7 +103,7 @@ static void drawRoundedSquare(cairo_t *cr)
     cairo_stroke(cr);
 }
 
-static void renderText(cairo_t *cr, int x, int y)
+static void renderText(cairo_t *cr,const char *str,int x,int y)
 {
     cairo_select_font_face(cr, "Sans",
                            CAIRO_FONT_SLANT_NORMAL,
@@ -116,9 +116,11 @@ static void renderText(cairo_t *cr, int x, int y)
     cairo_move_to(cr, x, y);
 
     char label[64];
-    snprintf(label, sizeof(label), "(%d, %d)", x, y);
+    snprintf(label, sizeof(label), "(%d)",str);
     cairo_show_text(cr, label);
 }
+
+void draw
 
 void drawCairoSquare(uint8_t *pool_data, int width, int height, int offset, int stride)
 {
