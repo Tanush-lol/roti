@@ -3,7 +3,6 @@
 
 CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o
  /home/tanush/Projects/roti/roti/include/xdg-shell-protocol.c
- /home/tanush/Projects/w11practice/include/xdg-shell-protocol.c
  /usr/include/bits/floatn-common.h
  /usr/include/bits/floatn.h
  /usr/include/bits/flt-eval-method.h
@@ -44,12 +43,11 @@ CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o
 
 CMakeFiles/roti.dir/src/buffer.c.o
  /home/tanush/Projects/roti/roti/src/buffer.c
- /home/tanush/Projects/w11practice/include/cairo.h
- /home/tanush/Projects/w11practice/include/shm.h
- /home/tanush/Projects/w11practice/include/state.h
- /home/tanush/Projects/w11practice/include/w11-client.h
- /home/tanush/Projects/w11practice/include/xdg-shell-client-protocol.h
- /home/tanush/Projects/w11practice/src/buffer.c
+ /home/tanush/Projects/roti/roti/include/cairo.h
+ /home/tanush/Projects/roti/roti/include/shm.h
+ /home/tanush/Projects/roti/roti/include/state.h
+ /home/tanush/Projects/roti/roti/include/w11-client.h
+ /home/tanush/Projects/roti/roti/include/xdg-shell-client-protocol.h
  /usr/include/bits/confname.h
  /usr/include/bits/environments.h
  /usr/include/bits/floatn-common.h
@@ -113,7 +111,6 @@ CMakeFiles/roti.dir/src/buffer.c.o
 
 CMakeFiles/roti.dir/src/cairo.c.o
  /home/tanush/Projects/roti/roti/src/cairo.c
- /home/tanush/Projects/w11practice/src/cairo.c
  /usr/include/bits/floatn-common.h
  /usr/include/bits/floatn.h
  /usr/include/bits/flt-eval-method.h
@@ -168,13 +165,12 @@ CMakeFiles/roti.dir/src/cairo.c.o
 
 CMakeFiles/roti.dir/src/main.c.o
  /home/tanush/Projects/roti/roti/src/main.c
- /home/tanush/Projects/w11practice/include/buffer.h
- /home/tanush/Projects/w11practice/include/shm.h
- /home/tanush/Projects/w11practice/include/state.h
- /home/tanush/Projects/w11practice/include/w11-client.h
- /home/tanush/Projects/w11practice/include/xdg-shell-client-protocol.h
- /home/tanush/Projects/w11practice/include/xdg_surface.h
- /home/tanush/Projects/w11practice/src/main.c
+ /home/tanush/Projects/roti/roti/include/buffer.h
+ /home/tanush/Projects/roti/roti/include/shm.h
+ /home/tanush/Projects/roti/roti/include/state.h
+ /home/tanush/Projects/roti/roti/include/w11-client.h
+ /home/tanush/Projects/roti/roti/include/xdg-shell-client-protocol.h
+ /home/tanush/Projects/roti/roti/include/xdg_surface.h
  /usr/include/bits/confname.h
  /usr/include/bits/environments.h
  /usr/include/bits/floatn-common.h
@@ -240,7 +236,6 @@ CMakeFiles/roti.dir/src/main.c.o
 
 CMakeFiles/roti.dir/src/shm.c.o
  /home/tanush/Projects/roti/roti/src/shm.c
- /home/tanush/Projects/w11practice/src/shm.c
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
  /usr/include/asm/errno.h
@@ -291,11 +286,10 @@ CMakeFiles/roti.dir/src/shm.c.o
 
 CMakeFiles/roti.dir/src/xdg_surface.c.o
  /home/tanush/Projects/roti/roti/src/xdg_surface.c
- /home/tanush/Projects/w11practice/include/buffer.h
- /home/tanush/Projects/w11practice/include/state.h
- /home/tanush/Projects/w11practice/include/w11-client.h
- /home/tanush/Projects/w11practice/include/xdg-shell-client-protocol.h
- /home/tanush/Projects/w11practice/src/xdg_surface.c
+ /home/tanush/Projects/roti/roti/include/buffer.h
+ /home/tanush/Projects/roti/roti/include/state.h
+ /home/tanush/Projects/roti/roti/include/w11-client.h
+ /home/tanush/Projects/roti/roti/include/xdg-shell-client-protocol.h
  /usr/include/bits/floatn-common.h
  /usr/include/bits/floatn.h
  /usr/include/bits/flt-eval-method.h

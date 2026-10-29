@@ -583,20 +583,18 @@ static void scan_dir(Loader *L, const char *root, const char *rel, int depth) {
     free(dirpath);
 }
 
-/* Top-level loader: gathers locale + data dirs, then scans
- * <dir>/applications for each dir in priority order. */
 static void load_all(Loader *L) {
     LOG("loading all applications");
-    locale_candidates(&L->locales);
+    locale_candidates(&L->locales);//function
 
-    StrVec bases = {0};
-    data_dirs(&bases);
+    StrVec bases = {0}; //struct
+    data_dirs(&bases);//function
     for (size_t i = 0; i < bases.len; i++) {
         char *root = join_path(bases.items[i], "applications");
         scan_dir(L, root, "", 0);
         free(root);
     }
-    sv_free(&bases);
+    sv_free(&bases);//function
     LOG("done: %zu launchable applications found", L->entries.len);
 }
 
@@ -614,9 +612,9 @@ static int cmp_entries(const void *a, const void *b) {
 int main(int argc, char **argv) {
     for (int i = 1; i < argc; i++) {
         if (strcmp(argv[i], "-v") == 0) {
-            g_verbose = 1;
+            g_verbose = 1;// const
         } else if (strcmp(argv[i], "-vv") == 0) {
-            g_verbose = 2;
+            g_verbose = 2;// const
         } else {
             fprintf(stderr, "usage: %s [-v | -vv]\n", argv[0]);
             return strcmp(argv[i], "-h") == 0 ? 0 : 1;
@@ -625,14 +623,14 @@ int main(int argc, char **argv) {
     LOG("starting; verbosity level %d", g_verbose);
 
     Loader L = {0};
-    load_all(&L);
+    load_all(&L);//function
 
     LOG("sorting %zu entries by name", L.entries.len);
     qsort(L.entries.items, L.entries.len, sizeof *L.entries.items, cmp_entries);
 
     for (size_t i = 0; i < L.entries.len; i++)
-        printf("%s  (%s)\n", L.entries.items[i].name, L.entries.items[i].id);
-    fprintf(stderr, "%zu applications\n", L.entries.len);
+        printf("application :%s  (%s)\n", L.entries.items[i].name, L.entries.items[i].id);// where applications are getting logged
+    fprintf(stderr, "fprint output :%zu applications\n", L.entries.len);
 
     entry_vec_free(&L.entries);
     sv_free(&L.seen);
