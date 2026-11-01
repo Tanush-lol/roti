@@ -3,10 +3,11 @@ roti: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o \
   CMakeFiles/roti.dir/src/main.c.o \
-  CMakeFiles/roti.dir/src/shm.c.o \
-  CMakeFiles/roti.dir/src/cairo.c.o \
-  CMakeFiles/roti.dir/src/xdg_surface.c.o \
-  CMakeFiles/roti.dir/src/buffer.c.o \
+  CMakeFiles/roti.dir/src/scanner/scanner.c.o \
+  CMakeFiles/roti.dir/src/wayland/shm.c.o \
+  CMakeFiles/roti.dir/src/wayland/buffer.c.o \
+  CMakeFiles/roti.dir/src/wayland/xdg_surface.c.o \
+  CMakeFiles/roti.dir/src/wayland/cairo.c.o \
   CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
@@ -96,13 +97,15 @@ roti: \
 
 CMakeFiles/roti.dir/src/main.c.o:
 
-CMakeFiles/roti.dir/src/shm.c.o:
+CMakeFiles/roti.dir/src/scanner/scanner.c.o:
 
-CMakeFiles/roti.dir/src/cairo.c.o:
+CMakeFiles/roti.dir/src/wayland/shm.c.o:
 
-CMakeFiles/roti.dir/src/xdg_surface.c.o:
+CMakeFiles/roti.dir/src/wayland/buffer.c.o:
 
-CMakeFiles/roti.dir/src/buffer.c.o:
+CMakeFiles/roti.dir/src/wayland/xdg_surface.c.o:
+
+CMakeFiles/roti.dir/src/wayland/cairo.c.o:
 
 CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o:
 

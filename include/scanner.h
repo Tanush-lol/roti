@@ -1,8 +1,15 @@
 #ifndef SCANNER_H
 #define SCANNER_H
 
-#include <stdint.h>
+#include <stddef.h>
 
-std::vector<application> scan_apps_in_directory(const fs::path& dir_path) 
+#define MAX_APP_NAME 256
 
-#endif /* CAIRO_H */
+typedef struct {
+    char appName[MAX_APP_NAME];
+    //future for  app execution path
+} application;
+
+application *send_apps_in_directory(int request);
+
+#endif /* SCANNER_H */

@@ -1,4 +1,5 @@
 #define _GNU_SOURCE   /* exposes M_PI in math.h */
+#include "cairo_renderer.h"
 #include <cairo/cairo.h>
 #include <stdint.h>
 #include <string.h>
@@ -144,11 +145,14 @@ void drawCairoSquare(uint8_t *pool_data, int width, int height, int offset, int 
     cairo_rectangle(cr, 20, 20, 80, 80);
     cairo_stroke(cr);
 
+    send_apps_in_directory(0);
+
     /* drawArc(cr); */
 
     /* Finish drawing before handing the buffer to Wayland */
 
     cairo_destroy(cr);
+
     cairo_surface_flush(surface);
     cairo_surface_destroy(surface);
 }

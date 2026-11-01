@@ -86,66 +86,80 @@ CMakeFiles/roti.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/roti.dir/src/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tanush/Projects/roti/roti/src/main.c -o CMakeFiles/roti.dir/src/main.c.s
 
-CMakeFiles/roti.dir/src/shm.c.o: CMakeFiles/roti.dir/flags.make
-CMakeFiles/roti.dir/src/shm.c.o: /home/tanush/Projects/roti/roti/src/shm.c
-CMakeFiles/roti.dir/src/shm.c.o: CMakeFiles/roti.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tanush/Projects/roti/roti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/roti.dir/src/shm.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/roti.dir/src/shm.c.o -MF CMakeFiles/roti.dir/src/shm.c.o.d -o CMakeFiles/roti.dir/src/shm.c.o -c /home/tanush/Projects/roti/roti/src/shm.c
+CMakeFiles/roti.dir/src/scanner/scanner.c.o: CMakeFiles/roti.dir/flags.make
+CMakeFiles/roti.dir/src/scanner/scanner.c.o: /home/tanush/Projects/roti/roti/src/scanner/scanner.c
+CMakeFiles/roti.dir/src/scanner/scanner.c.o: CMakeFiles/roti.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tanush/Projects/roti/roti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/roti.dir/src/scanner/scanner.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/roti.dir/src/scanner/scanner.c.o -MF CMakeFiles/roti.dir/src/scanner/scanner.c.o.d -o CMakeFiles/roti.dir/src/scanner/scanner.c.o -c /home/tanush/Projects/roti/roti/src/scanner/scanner.c
 
-CMakeFiles/roti.dir/src/shm.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/roti.dir/src/shm.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tanush/Projects/roti/roti/src/shm.c > CMakeFiles/roti.dir/src/shm.c.i
+CMakeFiles/roti.dir/src/scanner/scanner.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/roti.dir/src/scanner/scanner.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tanush/Projects/roti/roti/src/scanner/scanner.c > CMakeFiles/roti.dir/src/scanner/scanner.c.i
 
-CMakeFiles/roti.dir/src/shm.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/roti.dir/src/shm.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tanush/Projects/roti/roti/src/shm.c -o CMakeFiles/roti.dir/src/shm.c.s
+CMakeFiles/roti.dir/src/scanner/scanner.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/roti.dir/src/scanner/scanner.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tanush/Projects/roti/roti/src/scanner/scanner.c -o CMakeFiles/roti.dir/src/scanner/scanner.c.s
 
-CMakeFiles/roti.dir/src/cairo.c.o: CMakeFiles/roti.dir/flags.make
-CMakeFiles/roti.dir/src/cairo.c.o: /home/tanush/Projects/roti/roti/src/cairo.c
-CMakeFiles/roti.dir/src/cairo.c.o: CMakeFiles/roti.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tanush/Projects/roti/roti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/roti.dir/src/cairo.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/roti.dir/src/cairo.c.o -MF CMakeFiles/roti.dir/src/cairo.c.o.d -o CMakeFiles/roti.dir/src/cairo.c.o -c /home/tanush/Projects/roti/roti/src/cairo.c
+CMakeFiles/roti.dir/src/wayland/shm.c.o: CMakeFiles/roti.dir/flags.make
+CMakeFiles/roti.dir/src/wayland/shm.c.o: /home/tanush/Projects/roti/roti/src/wayland/shm.c
+CMakeFiles/roti.dir/src/wayland/shm.c.o: CMakeFiles/roti.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tanush/Projects/roti/roti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/roti.dir/src/wayland/shm.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/roti.dir/src/wayland/shm.c.o -MF CMakeFiles/roti.dir/src/wayland/shm.c.o.d -o CMakeFiles/roti.dir/src/wayland/shm.c.o -c /home/tanush/Projects/roti/roti/src/wayland/shm.c
 
-CMakeFiles/roti.dir/src/cairo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/roti.dir/src/cairo.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tanush/Projects/roti/roti/src/cairo.c > CMakeFiles/roti.dir/src/cairo.c.i
+CMakeFiles/roti.dir/src/wayland/shm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/roti.dir/src/wayland/shm.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tanush/Projects/roti/roti/src/wayland/shm.c > CMakeFiles/roti.dir/src/wayland/shm.c.i
 
-CMakeFiles/roti.dir/src/cairo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/roti.dir/src/cairo.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tanush/Projects/roti/roti/src/cairo.c -o CMakeFiles/roti.dir/src/cairo.c.s
+CMakeFiles/roti.dir/src/wayland/shm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/roti.dir/src/wayland/shm.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tanush/Projects/roti/roti/src/wayland/shm.c -o CMakeFiles/roti.dir/src/wayland/shm.c.s
 
-CMakeFiles/roti.dir/src/xdg_surface.c.o: CMakeFiles/roti.dir/flags.make
-CMakeFiles/roti.dir/src/xdg_surface.c.o: /home/tanush/Projects/roti/roti/src/xdg_surface.c
-CMakeFiles/roti.dir/src/xdg_surface.c.o: CMakeFiles/roti.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tanush/Projects/roti/roti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/roti.dir/src/xdg_surface.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/roti.dir/src/xdg_surface.c.o -MF CMakeFiles/roti.dir/src/xdg_surface.c.o.d -o CMakeFiles/roti.dir/src/xdg_surface.c.o -c /home/tanush/Projects/roti/roti/src/xdg_surface.c
+CMakeFiles/roti.dir/src/wayland/buffer.c.o: CMakeFiles/roti.dir/flags.make
+CMakeFiles/roti.dir/src/wayland/buffer.c.o: /home/tanush/Projects/roti/roti/src/wayland/buffer.c
+CMakeFiles/roti.dir/src/wayland/buffer.c.o: CMakeFiles/roti.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tanush/Projects/roti/roti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/roti.dir/src/wayland/buffer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/roti.dir/src/wayland/buffer.c.o -MF CMakeFiles/roti.dir/src/wayland/buffer.c.o.d -o CMakeFiles/roti.dir/src/wayland/buffer.c.o -c /home/tanush/Projects/roti/roti/src/wayland/buffer.c
 
-CMakeFiles/roti.dir/src/xdg_surface.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/roti.dir/src/xdg_surface.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tanush/Projects/roti/roti/src/xdg_surface.c > CMakeFiles/roti.dir/src/xdg_surface.c.i
+CMakeFiles/roti.dir/src/wayland/buffer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/roti.dir/src/wayland/buffer.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tanush/Projects/roti/roti/src/wayland/buffer.c > CMakeFiles/roti.dir/src/wayland/buffer.c.i
 
-CMakeFiles/roti.dir/src/xdg_surface.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/roti.dir/src/xdg_surface.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tanush/Projects/roti/roti/src/xdg_surface.c -o CMakeFiles/roti.dir/src/xdg_surface.c.s
+CMakeFiles/roti.dir/src/wayland/buffer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/roti.dir/src/wayland/buffer.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tanush/Projects/roti/roti/src/wayland/buffer.c -o CMakeFiles/roti.dir/src/wayland/buffer.c.s
 
-CMakeFiles/roti.dir/src/buffer.c.o: CMakeFiles/roti.dir/flags.make
-CMakeFiles/roti.dir/src/buffer.c.o: /home/tanush/Projects/roti/roti/src/buffer.c
-CMakeFiles/roti.dir/src/buffer.c.o: CMakeFiles/roti.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tanush/Projects/roti/roti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/roti.dir/src/buffer.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/roti.dir/src/buffer.c.o -MF CMakeFiles/roti.dir/src/buffer.c.o.d -o CMakeFiles/roti.dir/src/buffer.c.o -c /home/tanush/Projects/roti/roti/src/buffer.c
+CMakeFiles/roti.dir/src/wayland/xdg_surface.c.o: CMakeFiles/roti.dir/flags.make
+CMakeFiles/roti.dir/src/wayland/xdg_surface.c.o: /home/tanush/Projects/roti/roti/src/wayland/xdg_surface.c
+CMakeFiles/roti.dir/src/wayland/xdg_surface.c.o: CMakeFiles/roti.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tanush/Projects/roti/roti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/roti.dir/src/wayland/xdg_surface.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/roti.dir/src/wayland/xdg_surface.c.o -MF CMakeFiles/roti.dir/src/wayland/xdg_surface.c.o.d -o CMakeFiles/roti.dir/src/wayland/xdg_surface.c.o -c /home/tanush/Projects/roti/roti/src/wayland/xdg_surface.c
 
-CMakeFiles/roti.dir/src/buffer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/roti.dir/src/buffer.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tanush/Projects/roti/roti/src/buffer.c > CMakeFiles/roti.dir/src/buffer.c.i
+CMakeFiles/roti.dir/src/wayland/xdg_surface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/roti.dir/src/wayland/xdg_surface.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tanush/Projects/roti/roti/src/wayland/xdg_surface.c > CMakeFiles/roti.dir/src/wayland/xdg_surface.c.i
 
-CMakeFiles/roti.dir/src/buffer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/roti.dir/src/buffer.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tanush/Projects/roti/roti/src/buffer.c -o CMakeFiles/roti.dir/src/buffer.c.s
+CMakeFiles/roti.dir/src/wayland/xdg_surface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/roti.dir/src/wayland/xdg_surface.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tanush/Projects/roti/roti/src/wayland/xdg_surface.c -o CMakeFiles/roti.dir/src/wayland/xdg_surface.c.s
+
+CMakeFiles/roti.dir/src/wayland/cairo.c.o: CMakeFiles/roti.dir/flags.make
+CMakeFiles/roti.dir/src/wayland/cairo.c.o: /home/tanush/Projects/roti/roti/src/wayland/cairo.c
+CMakeFiles/roti.dir/src/wayland/cairo.c.o: CMakeFiles/roti.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tanush/Projects/roti/roti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/roti.dir/src/wayland/cairo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/roti.dir/src/wayland/cairo.c.o -MF CMakeFiles/roti.dir/src/wayland/cairo.c.o.d -o CMakeFiles/roti.dir/src/wayland/cairo.c.o -c /home/tanush/Projects/roti/roti/src/wayland/cairo.c
+
+CMakeFiles/roti.dir/src/wayland/cairo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/roti.dir/src/wayland/cairo.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tanush/Projects/roti/roti/src/wayland/cairo.c > CMakeFiles/roti.dir/src/wayland/cairo.c.i
+
+CMakeFiles/roti.dir/src/wayland/cairo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/roti.dir/src/wayland/cairo.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tanush/Projects/roti/roti/src/wayland/cairo.c -o CMakeFiles/roti.dir/src/wayland/cairo.c.s
 
 CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o: CMakeFiles/roti.dir/flags.make
 CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o: /home/tanush/Projects/roti/roti/include/xdg-shell-protocol.c
 CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o: CMakeFiles/roti.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tanush/Projects/roti/roti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tanush/Projects/roti/roti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o -MF CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o.d -o CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o -c /home/tanush/Projects/roti/roti/include/xdg-shell-protocol.c
 
 CMakeFiles/roti.dir/include/xdg-shell-protocol.c.i: cmake_force
@@ -159,20 +173,22 @@ CMakeFiles/roti.dir/include/xdg-shell-protocol.c.s: cmake_force
 # Object files for target roti
 roti_OBJECTS = \
 "CMakeFiles/roti.dir/src/main.c.o" \
-"CMakeFiles/roti.dir/src/shm.c.o" \
-"CMakeFiles/roti.dir/src/cairo.c.o" \
-"CMakeFiles/roti.dir/src/xdg_surface.c.o" \
-"CMakeFiles/roti.dir/src/buffer.c.o" \
+"CMakeFiles/roti.dir/src/scanner/scanner.c.o" \
+"CMakeFiles/roti.dir/src/wayland/shm.c.o" \
+"CMakeFiles/roti.dir/src/wayland/buffer.c.o" \
+"CMakeFiles/roti.dir/src/wayland/xdg_surface.c.o" \
+"CMakeFiles/roti.dir/src/wayland/cairo.c.o" \
 "CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o"
 
 # External object files for target roti
 roti_EXTERNAL_OBJECTS =
 
 roti: CMakeFiles/roti.dir/src/main.c.o
-roti: CMakeFiles/roti.dir/src/shm.c.o
-roti: CMakeFiles/roti.dir/src/cairo.c.o
-roti: CMakeFiles/roti.dir/src/xdg_surface.c.o
-roti: CMakeFiles/roti.dir/src/buffer.c.o
+roti: CMakeFiles/roti.dir/src/scanner/scanner.c.o
+roti: CMakeFiles/roti.dir/src/wayland/shm.c.o
+roti: CMakeFiles/roti.dir/src/wayland/buffer.c.o
+roti: CMakeFiles/roti.dir/src/wayland/xdg_surface.c.o
+roti: CMakeFiles/roti.dir/src/wayland/cairo.c.o
 roti: CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o
 roti: CMakeFiles/roti.dir/build.make
 roti: CMakeFiles/roti.dir/compiler_depend.ts
@@ -180,7 +196,7 @@ roti: /usr/lib/libwayland-client.so
 roti: /usr/lib/libm.so
 roti: /usr/lib/libcairo.so
 roti: CMakeFiles/roti.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tanush/Projects/roti/roti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable roti"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tanush/Projects/roti/roti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable roti"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/roti.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

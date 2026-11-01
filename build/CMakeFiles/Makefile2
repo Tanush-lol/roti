@@ -85,12 +85,12 @@ clean: CMakeFiles/roti.dir/clean
 CMakeFiles/roti.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tanush/Projects/roti/roti/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target roti"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tanush/Projects/roti/roti/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target roti"
 .PHONY : CMakeFiles/roti.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roti.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tanush/Projects/roti/roti/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tanush/Projects/roti/roti/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/roti.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tanush/Projects/roti/roti/build/CMakeFiles 0
 .PHONY : CMakeFiles/roti.dir/rule
@@ -102,7 +102,7 @@ roti: CMakeFiles/roti.dir/rule
 # codegen rule for target.
 CMakeFiles/roti.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tanush/Projects/roti/roti/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target roti"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tanush/Projects/roti/roti/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Finished codegen for target roti"
 .PHONY : CMakeFiles/roti.dir/codegen
 
 # clean rule for target.

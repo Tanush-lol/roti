@@ -6,7 +6,7 @@
 #include <unistd.h>
 #include <stdio.h>
 #include "state.h"
-#include "cairo.h"
+#include "cairo_renderer.h"
 #include "shm.h"
 
 static void wl_buffer_release(void *data, struct wl_buffer *wl_buffer)

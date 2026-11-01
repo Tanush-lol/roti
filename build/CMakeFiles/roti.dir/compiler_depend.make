@@ -40,128 +40,9 @@ CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o: /home/tanush/Projects/roti/r
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h
 
-CMakeFiles/roti.dir/src/buffer.c.o: /home/tanush/Projects/roti/roti/src/buffer.c \
-  /home/tanush/Projects/roti/roti/include/cairo.h \
-  /home/tanush/Projects/roti/roti/include/shm.h \
-  /home/tanush/Projects/roti/roti/include/state.h \
-  /home/tanush/Projects/roti/roti/include/w11-client.h \
-  /home/tanush/Projects/roti/roti/include/xdg-shell-client-protocol.h \
-  /usr/include/bits/confname.h \
-  /usr/include/bits/environments.h \
-  /usr/include/bits/floatn-common.h \
-  /usr/include/bits/floatn.h \
-  /usr/include/bits/flt-eval-method.h \
-  /usr/include/bits/fp-fast.h \
-  /usr/include/bits/fp-logb.h \
-  /usr/include/bits/getopt_core.h \
-  /usr/include/bits/getopt_posix.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/libm-simd-decl-stubs.h \
-  /usr/include/bits/long-double.h \
-  /usr/include/bits/math-vector.h \
-  /usr/include/bits/mathcalls-helper-functions.h \
-  /usr/include/bits/mathcalls-macros.h \
-  /usr/include/bits/mathcalls.h \
-  /usr/include/bits/mman-linux.h \
-  /usr/include/bits/mman-map-flags-generic.h \
-  /usr/include/bits/mman-shared.h \
-  /usr/include/bits/mman.h \
-  /usr/include/bits/mman_ext.h \
-  /usr/include/bits/posix_opt.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdint-least.h \
-  /usr/include/bits/stdint-uintn.h \
-  /usr/include/bits/stdio_lim.h \
-  /usr/include/bits/time64.h \
-  /usr/include/bits/timesize.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/types/FILE.h \
-  /usr/include/bits/types/__FILE.h \
-  /usr/include/bits/types/__fpos64_t.h \
-  /usr/include/bits/types/__fpos_t.h \
-  /usr/include/bits/types/__mbstate_t.h \
-  /usr/include/bits/types/struct_FILE.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/unistd_ext.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/wordsize.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/gnu/stubs-64.h \
-  /usr/include/gnu/stubs.h \
-  /usr/include/inttypes.h \
-  /usr/include/math.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/string.h \
-  /usr/include/sys/cdefs.h \
-  /usr/include/sys/mman.h \
-  /usr/include/unistd.h \
-  /usr/include/wayland-client-core.h \
-  /usr/include/wayland-client-protocol.h \
-  /usr/include/wayland-client.h \
-  /usr/include/wayland-util.h \
-  /usr/include/wayland-version.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h
-
-CMakeFiles/roti.dir/src/cairo.c.o: /home/tanush/Projects/roti/roti/src/cairo.c \
-  /usr/include/bits/floatn-common.h \
-  /usr/include/bits/floatn.h \
-  /usr/include/bits/flt-eval-method.h \
-  /usr/include/bits/fp-fast.h \
-  /usr/include/bits/fp-logb.h \
-  /usr/include/bits/iscanonical.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/libm-simd-decl-stubs.h \
-  /usr/include/bits/long-double.h \
-  /usr/include/bits/math-vector.h \
-  /usr/include/bits/mathcalls-helper-functions.h \
-  /usr/include/bits/mathcalls-macros.h \
-  /usr/include/bits/mathcalls-narrow.h \
-  /usr/include/bits/mathcalls.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdint-least.h \
-  /usr/include/bits/stdint-uintn.h \
-  /usr/include/bits/stdio_lim.h \
-  /usr/include/bits/time64.h \
-  /usr/include/bits/timesize.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/types/FILE.h \
-  /usr/include/bits/types/__FILE.h \
-  /usr/include/bits/types/__fpos64_t.h \
-  /usr/include/bits/types/__fpos_t.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/bits/types/__mbstate_t.h \
-  /usr/include/bits/types/cookie_io_functions_t.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/struct_FILE.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/wordsize.h \
-  /usr/include/cairo/cairo-deprecated.h \
-  /usr/include/cairo/cairo-features.h \
-  /usr/include/cairo/cairo-version.h \
-  /usr/include/cairo/cairo.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/gnu/stubs-64.h \
-  /usr/include/gnu/stubs.h \
-  /usr/include/math.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/sys/cdefs.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h
-
 CMakeFiles/roti.dir/src/main.c.o: /home/tanush/Projects/roti/roti/src/main.c \
   /home/tanush/Projects/roti/roti/include/buffer.h \
+  /home/tanush/Projects/roti/roti/include/scanner.h \
   /home/tanush/Projects/roti/roti/include/shm.h \
   /home/tanush/Projects/roti/roti/include/state.h \
   /home/tanush/Projects/roti/roti/include/w11-client.h \
@@ -230,7 +111,175 @@ CMakeFiles/roti.dir/src/main.c.o: /home/tanush/Projects/roti/roti/src/main.c \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h
 
-CMakeFiles/roti.dir/src/shm.c.o: /home/tanush/Projects/roti/roti/src/shm.c \
+CMakeFiles/roti.dir/src/scanner/scanner.c.o: /home/tanush/Projects/roti/roti/src/scanner/scanner.c \
+  /home/tanush/Projects/roti/roti/include/scanner.h \
+  /usr/include/bits/dirent.h \
+  /usr/include/bits/dirent_ext.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/stat.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_stat.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/dirent.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/stat.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdbool.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h
+
+CMakeFiles/roti.dir/src/wayland/buffer.c.o: /home/tanush/Projects/roti/roti/src/wayland/buffer.c \
+  /home/tanush/Projects/roti/roti/include/cairo_renderer.h \
+  /home/tanush/Projects/roti/roti/include/shm.h \
+  /home/tanush/Projects/roti/roti/include/state.h \
+  /home/tanush/Projects/roti/roti/include/w11-client.h \
+  /home/tanush/Projects/roti/roti/include/xdg-shell-client-protocol.h \
+  /usr/include/bits/confname.h \
+  /usr/include/bits/environments.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mman-linux.h \
+  /usr/include/bits/mman-map-flags-generic.h \
+  /usr/include/bits/mman-shared.h \
+  /usr/include/bits/mman.h \
+  /usr/include/bits/mman_ext.h \
+  /usr/include/bits/posix_opt.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/unistd_ext.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/inttypes.h \
+  /usr/include/math.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/string.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/mman.h \
+  /usr/include/unistd.h \
+  /usr/include/wayland-client-core.h \
+  /usr/include/wayland-client-protocol.h \
+  /usr/include/wayland-client.h \
+  /usr/include/wayland-util.h \
+  /usr/include/wayland-version.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h
+
+CMakeFiles/roti.dir/src/wayland/cairo.c.o: /home/tanush/Projects/roti/roti/src/wayland/cairo.c \
+  /home/tanush/Projects/roti/roti/include/cairo_renderer.h \
+  /home/tanush/Projects/roti/roti/include/scanner.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/cairo/cairo-deprecated.h \
+  /usr/include/cairo/cairo-features.h \
+  /usr/include/cairo/cairo-version.h \
+  /usr/include/cairo/cairo.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/math.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h
+
+CMakeFiles/roti.dir/src/wayland/shm.c.o: /home/tanush/Projects/roti/roti/src/wayland/shm.c \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm/errno.h \
@@ -279,7 +328,7 @@ CMakeFiles/roti.dir/src/shm.c.o: /home/tanush/Projects/roti/roti/src/shm.c \
   /usr/include/unistd.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h
 
-CMakeFiles/roti.dir/src/xdg_surface.c.o: /home/tanush/Projects/roti/roti/src/xdg_surface.c \
+CMakeFiles/roti.dir/src/wayland/xdg_surface.c.o: /home/tanush/Projects/roti/roti/src/wayland/xdg_surface.c \
   /home/tanush/Projects/roti/roti/include/buffer.h \
   /home/tanush/Projects/roti/roti/include/state.h \
   /home/tanush/Projects/roti/roti/include/w11-client.h \
@@ -380,20 +429,23 @@ roti: /usr/lib/Scrt1.o \
   /usr/lib32/libxcb.so.1 \
   /usr/lib32/libz.so.1 \
   CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o \
-  CMakeFiles/roti.dir/src/buffer.c.o \
-  CMakeFiles/roti.dir/src/cairo.c.o \
   CMakeFiles/roti.dir/src/main.c.o \
-  CMakeFiles/roti.dir/src/shm.c.o \
-  CMakeFiles/roti.dir/src/xdg_surface.c.o
+  CMakeFiles/roti.dir/src/scanner/scanner.c.o \
+  CMakeFiles/roti.dir/src/wayland/buffer.c.o \
+  CMakeFiles/roti.dir/src/wayland/cairo.c.o \
+  CMakeFiles/roti.dir/src/wayland/shm.c.o \
+  CMakeFiles/roti.dir/src/wayland/xdg_surface.c.o
 
 
-CMakeFiles/roti.dir/src/xdg_surface.c.o:
+CMakeFiles/roti.dir/src/wayland/xdg_surface.c.o:
 
-CMakeFiles/roti.dir/src/shm.c.o:
+CMakeFiles/roti.dir/src/wayland/shm.c.o:
 
-CMakeFiles/roti.dir/src/cairo.c.o:
+CMakeFiles/roti.dir/src/wayland/cairo.c.o:
 
-CMakeFiles/roti.dir/src/buffer.c.o:
+CMakeFiles/roti.dir/src/wayland/buffer.c.o:
+
+CMakeFiles/roti.dir/src/scanner/scanner.c.o:
 
 CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o:
 
@@ -406,10 +458,6 @@ CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o:
 /usr/lib32/libexpat.so.1:
 
 /usr/lib32/libbz2.so.1.0:
-
-/usr/lib32/libXdmcp.so.6:
-
-/usr/lib32/libX11.so.6:
 
 /usr/lib/libz.so.1:
 
@@ -431,21 +479,31 @@ CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o:
 
 /usr/lib/libbz2.so.1.0:
 
+/usr/lib/libXrender.so.1:
+
+/usr/lib/libXdmcp.so.6:
+
+/usr/lib/libfreetype.so.6:
+
+/usr/lib/libXau.so.6:
+
+/usr/lib32/libpixman-1.so.0:
+
+/usr/lib32/libbrotlicommon.so.1:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a:
+
 /usr/lib/libpng16.so.16:
 
 /usr/include/bits/types/__FILE.h:
-
-/usr/include/bits/mman.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h:
 
 /usr/include/bits/getopt_core.h:
 
 /usr/include/bits/types.h:
-
-/home/tanush/Projects/roti/roti/include/w11-client.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a:
 
 /home/tanush/Projects/roti/roti/include/state.h:
 
@@ -459,6 +517,16 @@ CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o:
 
 /usr/include/stdint.h:
 
+/home/tanush/Projects/roti/roti/include/scanner.h:
+
+/home/tanush/Projects/roti/roti/include/w11-client.h:
+
+/home/tanush/Projects/roti/roti/src/main.c:
+
+/usr/include/bits/mman-linux.h:
+
+/usr/include/bits/waitflags.h:
+
 /usr/include/bits/mman_ext.h:
 
 /usr/include/bits/stdint-intn.h:
@@ -471,7 +539,7 @@ CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdbool.h:
 
-/usr/include/bits/types/time_t.h:
+/home/tanush/Projects/roti/roti/src/wayland/xdg_surface.c:
 
 /usr/include/bits/fp-fast.h:
 
@@ -487,10 +555,6 @@ CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o:
 
 /usr/include/string.h:
 
-/usr/include/bits/mman-linux.h:
-
-/home/tanush/Projects/roti/roti/src/main.c:
-
 /usr/include/bits/types/FILE.h:
 
 /usr/include/bits/flt-eval-method.h:
@@ -501,11 +565,9 @@ CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o:
 
 /usr/include/stdc-predef.h:
 
-/usr/include/bits/timesize.h:
+/usr/include/bits/endian.h:
 
 /usr/include/asm/errno.h:
-
-/usr/include/bits/endian.h:
 
 /usr/include/gnu/stubs-64.h:
 
@@ -517,6 +579,10 @@ CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o:
 
 /usr/include/bits/floatn.h:
 
+/usr/lib32/libXdmcp.so.6:
+
+/home/tanush/Projects/roti/roti/include/cairo_renderer.h:
+
 /usr/lib32/libfontconfig.so.1:
 
 /usr/include/bits/long-double.h:
@@ -527,15 +593,13 @@ CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o:
 
-/home/tanush/Projects/roti/roti/src/buffer.c:
-
-/usr/include/bits/wchar.h:
-
-/usr/include/bits/types/struct_tm.h:
-
 /usr/include/bits/floatn-common.h:
 
 /usr/include/bits/mman-map-flags-generic.h:
+
+/usr/include/bits/mman.h:
+
+/home/tanush/Projects/roti/roti/src/wayland/buffer.c:
 
 /usr/include/bits/stdlib-float.h:
 
@@ -551,13 +615,15 @@ CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o:
 
 /usr/include/bits/types/locale_t.h:
 
+/usr/include/bits/wchar.h:
+
+/usr/include/bits/types/struct_tm.h:
+
 /usr/include/bits/libc-header-start.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h:
 
-/home/tanush/Projects/roti/roti/src/xdg_surface.c:
-
-/usr/include/bits/stdint-uintn.h:
+/home/tanush/Projects/roti/roti/src/wayland/shm.c:
 
 CMakeFiles/roti.dir/src/main.c.o:
 
@@ -567,11 +633,7 @@ CMakeFiles/roti.dir/src/main.c.o:
 
 /usr/include/cairo/cairo-features.h:
 
-/usr/include/bits/math-vector.h:
-
 /usr/include/bits/wordsize.h:
-
-/home/tanush/Projects/roti/roti/include/cairo.h:
 
 /usr/include/features-time64.h:
 
@@ -585,21 +647,35 @@ CMakeFiles/roti.dir/src/main.c.o:
 
 /usr/include/bits/iscanonical.h:
 
+/usr/include/bits/stdint-uintn.h:
+
+/home/tanush/Projects/roti/roti/src/scanner/scanner.c:
+
 /usr/lib32/libXrender.so.1:
 
 /usr/include/cairo/cairo-version.h:
 
+/usr/include/bits/math-vector.h:
+
+/usr/lib/libX11.so.6:
+
+/usr/include/bits/types/__fpos64_t.h:
+
 /usr/include/bits/types/struct_FILE.h:
+
+/usr/include/sys/stat.h:
 
 /usr/include/bits/unistd_ext.h:
 
 /usr/include/stdio.h:
 
+/home/tanush/Projects/roti/roti/include/xdg_surface.h:
+
+/usr/include/bits/mathcalls-narrow.h:
+
 /usr/include/sys/mman.h:
 
 /usr/include/unistd.h:
-
-/home/tanush/Projects/roti/roti/src/cairo.c:
 
 /usr/include/wayland-client-core.h:
 
@@ -607,11 +683,55 @@ CMakeFiles/roti.dir/src/main.c.o:
 
 /usr/include/wayland-client.h:
 
+/usr/include/bits/dirent.h:
+
+/usr/lib32/libX11.so.6:
+
+/usr/include/bits/dirent_ext.h:
+
+/usr/include/bits/fcntl-linux.h:
+
+/usr/include/strings.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/endianness.h:
+
+/usr/lib/ld-linux-x86-64.so.2:
+
+/usr/include/bits/stat.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/types/__mbstate_t.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/bits/types/time_t.h:
+
+/usr/include/bits/struct_stat.h:
+
 /usr/include/bits/types/__locale_t.h:
 
-/usr/lib/libc.so:
+/usr/include/bits/timesize.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/lib/libbrotlidec.so.1:
+
+/home/tanush/Projects/roti/roti/include/buffer.h:
+
+/usr/include/dirent.h:
+
+/home/tanush/Projects/roti/roti/src/wayland/cairo.c:
+
+/usr/lib/libXext.so.6:
+
+/usr/include/time.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s_asneeded.so:
+
+/usr/lib/libc.so:
 
 /usr/include/cairo/cairo-deprecated.h:
 
@@ -629,20 +749,6 @@ CMakeFiles/roti.dir/src/main.c.o:
 
 /usr/include/bits/types/clock_t.h:
 
-/usr/include/bits/fcntl-linux.h:
-
-/usr/include/strings.h:
-
-/usr/lib/libbrotlidec.so.1:
-
-/home/tanush/Projects/roti/roti/include/buffer.h:
-
-/usr/include/bits/mathcalls-narrow.h:
-
-/home/tanush/Projects/roti/roti/include/xdg_surface.h:
-
-/home/tanush/Projects/roti/roti/src/shm.c:
-
 /usr/lib32/libXau.so.6:
 
 /usr/include/asm-generic/errno-base.h:
@@ -657,17 +763,7 @@ CMakeFiles/roti.dir/src/main.c.o:
 
 /usr/include/asm-generic/errno.h:
 
-/usr/include/features.h:
-
-/usr/include/bits/endianness.h:
-
 /usr/include/bits/errno.h:
-
-/usr/include/bits/stdio_lim.h:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/usr/include/bits/time.h:
 
 /usr/include/bits/types/clockid_t.h:
 
@@ -700,27 +796,3 @@ CMakeFiles/roti.dir/src/main.c.o:
 /usr/lib32/libfreetype.so.6:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.so:
-
-/usr/lib32/libpixman-1.so.0:
-
-/usr/lib32/libbrotlicommon.so.1:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so:
-
-/usr/lib/ld-linux-x86-64.so.2:
-
-/usr/include/bits/types/__fpos64_t.h:
-
-/usr/lib/libX11.so.6:
-
-/usr/lib/libfreetype.so.6:
-
-/usr/lib/libXau.so.6:
-
-/usr/lib/libXdmcp.so.6:
-
-/usr/include/time.h:
-
-/usr/lib/libXext.so.6:
-
-/usr/lib/libXrender.so.1:

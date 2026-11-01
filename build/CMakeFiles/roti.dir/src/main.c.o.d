@@ -42,4 +42,5 @@ CMakeFiles/roti.dir/src/main.c.o: \
  /home/tanush/Projects/roti/roti/include/shm.h \
  /home/tanush/Projects/roti/roti/include/buffer.h \
  /home/tanush/Projects/roti/roti/include/state.h \
- /home/tanush/Projects/roti/roti/include/xdg_surface.h
+ /home/tanush/Projects/roti/roti/include/xdg_surface.h \
+ /home/tanush/Projects/roti/roti/include/scanner.h

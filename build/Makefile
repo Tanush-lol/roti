@@ -153,54 +153,6 @@ include/xdg-shell-protocol.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/include/xdg-shell-protocol.c.s
 .PHONY : include/xdg-shell-protocol.c.s
 
-src/buffer.o: src/buffer.c.o
-.PHONY : src/buffer.o
-
-# target to build an object file
-src/buffer.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/buffer.c.o
-.PHONY : src/buffer.c.o
-
-src/buffer.i: src/buffer.c.i
-.PHONY : src/buffer.i
-
-# target to preprocess a source file
-src/buffer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/buffer.c.i
-.PHONY : src/buffer.c.i
-
-src/buffer.s: src/buffer.c.s
-.PHONY : src/buffer.s
-
-# target to generate assembly for a file
-src/buffer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/buffer.c.s
-.PHONY : src/buffer.c.s
-
-src/cairo.o: src/cairo.c.o
-.PHONY : src/cairo.o
-
-# target to build an object file
-src/cairo.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/cairo.c.o
-.PHONY : src/cairo.c.o
-
-src/cairo.i: src/cairo.c.i
-.PHONY : src/cairo.i
-
-# target to preprocess a source file
-src/cairo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/cairo.c.i
-.PHONY : src/cairo.c.i
-
-src/cairo.s: src/cairo.c.s
-.PHONY : src/cairo.s
-
-# target to generate assembly for a file
-src/cairo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/cairo.c.s
-.PHONY : src/cairo.c.s
-
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -225,53 +177,125 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/main.c.s
 .PHONY : src/main.c.s
 
-src/shm.o: src/shm.c.o
-.PHONY : src/shm.o
+src/scanner/scanner.o: src/scanner/scanner.c.o
+.PHONY : src/scanner/scanner.o
 
 # target to build an object file
-src/shm.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/shm.c.o
-.PHONY : src/shm.c.o
+src/scanner/scanner.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/scanner/scanner.c.o
+.PHONY : src/scanner/scanner.c.o
 
-src/shm.i: src/shm.c.i
-.PHONY : src/shm.i
+src/scanner/scanner.i: src/scanner/scanner.c.i
+.PHONY : src/scanner/scanner.i
 
 # target to preprocess a source file
-src/shm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/shm.c.i
-.PHONY : src/shm.c.i
+src/scanner/scanner.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/scanner/scanner.c.i
+.PHONY : src/scanner/scanner.c.i
 
-src/shm.s: src/shm.c.s
-.PHONY : src/shm.s
+src/scanner/scanner.s: src/scanner/scanner.c.s
+.PHONY : src/scanner/scanner.s
 
 # target to generate assembly for a file
-src/shm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/shm.c.s
-.PHONY : src/shm.c.s
+src/scanner/scanner.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/scanner/scanner.c.s
+.PHONY : src/scanner/scanner.c.s
 
-src/xdg_surface.o: src/xdg_surface.c.o
-.PHONY : src/xdg_surface.o
+src/wayland/buffer.o: src/wayland/buffer.c.o
+.PHONY : src/wayland/buffer.o
 
 # target to build an object file
-src/xdg_surface.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/xdg_surface.c.o
-.PHONY : src/xdg_surface.c.o
+src/wayland/buffer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/wayland/buffer.c.o
+.PHONY : src/wayland/buffer.c.o
 
-src/xdg_surface.i: src/xdg_surface.c.i
-.PHONY : src/xdg_surface.i
+src/wayland/buffer.i: src/wayland/buffer.c.i
+.PHONY : src/wayland/buffer.i
 
 # target to preprocess a source file
-src/xdg_surface.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/xdg_surface.c.i
-.PHONY : src/xdg_surface.c.i
+src/wayland/buffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/wayland/buffer.c.i
+.PHONY : src/wayland/buffer.c.i
 
-src/xdg_surface.s: src/xdg_surface.c.s
-.PHONY : src/xdg_surface.s
+src/wayland/buffer.s: src/wayland/buffer.c.s
+.PHONY : src/wayland/buffer.s
 
 # target to generate assembly for a file
-src/xdg_surface.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/xdg_surface.c.s
-.PHONY : src/xdg_surface.c.s
+src/wayland/buffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/wayland/buffer.c.s
+.PHONY : src/wayland/buffer.c.s
+
+src/wayland/cairo.o: src/wayland/cairo.c.o
+.PHONY : src/wayland/cairo.o
+
+# target to build an object file
+src/wayland/cairo.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/wayland/cairo.c.o
+.PHONY : src/wayland/cairo.c.o
+
+src/wayland/cairo.i: src/wayland/cairo.c.i
+.PHONY : src/wayland/cairo.i
+
+# target to preprocess a source file
+src/wayland/cairo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/wayland/cairo.c.i
+.PHONY : src/wayland/cairo.c.i
+
+src/wayland/cairo.s: src/wayland/cairo.c.s
+.PHONY : src/wayland/cairo.s
+
+# target to generate assembly for a file
+src/wayland/cairo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/wayland/cairo.c.s
+.PHONY : src/wayland/cairo.c.s
+
+src/wayland/shm.o: src/wayland/shm.c.o
+.PHONY : src/wayland/shm.o
+
+# target to build an object file
+src/wayland/shm.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/wayland/shm.c.o
+.PHONY : src/wayland/shm.c.o
+
+src/wayland/shm.i: src/wayland/shm.c.i
+.PHONY : src/wayland/shm.i
+
+# target to preprocess a source file
+src/wayland/shm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/wayland/shm.c.i
+.PHONY : src/wayland/shm.c.i
+
+src/wayland/shm.s: src/wayland/shm.c.s
+.PHONY : src/wayland/shm.s
+
+# target to generate assembly for a file
+src/wayland/shm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/wayland/shm.c.s
+.PHONY : src/wayland/shm.c.s
+
+src/wayland/xdg_surface.o: src/wayland/xdg_surface.c.o
+.PHONY : src/wayland/xdg_surface.o
+
+# target to build an object file
+src/wayland/xdg_surface.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/wayland/xdg_surface.c.o
+.PHONY : src/wayland/xdg_surface.c.o
+
+src/wayland/xdg_surface.i: src/wayland/xdg_surface.c.i
+.PHONY : src/wayland/xdg_surface.i
+
+# target to preprocess a source file
+src/wayland/xdg_surface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/wayland/xdg_surface.c.i
+.PHONY : src/wayland/xdg_surface.c.i
+
+src/wayland/xdg_surface.s: src/wayland/xdg_surface.c.s
+.PHONY : src/wayland/xdg_surface.s
+
+# target to generate assembly for a file
+src/wayland/xdg_surface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/roti.dir/build.make CMakeFiles/roti.dir/src/wayland/xdg_surface.c.s
+.PHONY : src/wayland/xdg_surface.c.s
 
 # Help Target
 help:
@@ -285,21 +309,24 @@ help:
 	@echo "... include/xdg-shell-protocol.o"
 	@echo "... include/xdg-shell-protocol.i"
 	@echo "... include/xdg-shell-protocol.s"
-	@echo "... src/buffer.o"
-	@echo "... src/buffer.i"
-	@echo "... src/buffer.s"
-	@echo "... src/cairo.o"
-	@echo "... src/cairo.i"
-	@echo "... src/cairo.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/shm.o"
-	@echo "... src/shm.i"
-	@echo "... src/shm.s"
-	@echo "... src/xdg_surface.o"
-	@echo "... src/xdg_surface.i"
-	@echo "... src/xdg_surface.s"
+	@echo "... src/scanner/scanner.o"
+	@echo "... src/scanner/scanner.i"
+	@echo "... src/scanner/scanner.s"
+	@echo "... src/wayland/buffer.o"
+	@echo "... src/wayland/buffer.i"
+	@echo "... src/wayland/buffer.s"
+	@echo "... src/wayland/cairo.o"
+	@echo "... src/wayland/cairo.i"
+	@echo "... src/wayland/cairo.s"
+	@echo "... src/wayland/shm.o"
+	@echo "... src/wayland/shm.i"
+	@echo "... src/wayland/shm.s"
+	@echo "... src/wayland/xdg_surface.o"
+	@echo "... src/wayland/xdg_surface.i"
+	@echo "... src/wayland/xdg_surface.s"
 .PHONY : help
 
 

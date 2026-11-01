@@ -10,6 +10,7 @@
 #include "shm.h"
 #include "buffer.h"
 #include "xdg_surface.h"
+#include "scanner.h"
 
 static void handle_reg_global(void *data, struct wl_registry *registry,
                                uint32_t name, const char *interface, uint32_t version)
@@ -55,19 +56,7 @@ static const struct wl_registry_listener registry_listener = {
 int main(void)
 {
     // SCANNER CODE 
-   Loader loader = {0};                       /* all lists start empty */
-   load_all(&loader); // import scanner_struct.h
-    
-   qsort(loader.entries.items, loader.entries.len,
-          sizeof *loader.entries.items, compare_by_name); 
-   //import some library
-    for (size_t i = 0; i < loader.entries.len; i++)
-        printf("%s  (%s)\n", loader.entries.items[i].name, loader.entries.items[i].id);
-
-    entrylist_free(&loader.entries);           /* give all memory back */
-    strlist_free(&loader.seen);
-    strlist_free(&loader.locales);
-    //look out cuh idk
+    send_apps_in_directory(0);
 
 
     // WAYLAND CODE
@@ -83,7 +72,7 @@ int main(void)
     state.wl_surface  = wl_compositor_create_surface(state.compositor);
     state.xdg_surface = xdg_wm_base_get_xdg_surface(state.wm_base, state.wl_surface);
 
-    xdg_surface_add_listener(state.xdg_surface, &xdg_surface_listener, &state);scanner
+    xdg_surface_add_listener(state.xdg_surface, &xdg_surface_listener, &state);
     state.xdg_toplevel = xdg_surface_get_toplevel(state.xdg_surface);
     xdg_toplevel_set_title(state.xdg_toplevel, "Example client");
     wl_surface_commit(state.wl_surface);
