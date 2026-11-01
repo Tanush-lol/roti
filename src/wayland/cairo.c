@@ -6,6 +6,7 @@
 #include <math.h>
 #include <stdio.h>
 #include "scanner.h"
+#include <stdlib.h>
 
 /* top left corner's coordinates are 0,0 */
 
@@ -105,21 +106,23 @@ static void drawRoundedSquare(cairo_t *cr)
     cairo_stroke(cr);
 }
 
-static void renderText(cairo_t *cr,const char *str)
+static void renderText(cairo_t *cr, const char *str, int x, int y)
 {
-    cairo_select_font_face(cr, "Sans",
-                           CAIRO_FONT_SLANT_NORMAL,
-                           CAIRO_FONT_WEIGHT_BOLD);
-    cairo_set_font_size(cr, 30);
+    cairo_save(cr);
 
-    /* Text colour: black */
+    cairo_select_font_face(
+        cr, "Sans",
+        CAIRO_FONT_SLANT_NORMAL,
+        CAIRO_FONT_WEIGHT_BOLD
+    );
+
+    cairo_set_font_size(cr, 30);
     cairo_set_source_rgb(cr, 0.0, 0.0, 0.0);
 
-    // cairo_move_to(cr, x, y);
+    cairo_move_to(cr, x, y);
+    cairo_show_text(cr, str);
 
-    char label[64];
-    snprintf(label, sizeof(label), "(%d)",str);
-    cairo_show_text(cr, label);
+    cairo_restore(cr);
 }
 
 
@@ -145,8 +148,14 @@ void drawCairoSquare(uint8_t *pool_data, int width, int height, int offset, int 
     cairo_rectangle(cr, 20, 20, 80, 80);
     cairo_stroke(cr);
 
-    send_apps_in_directory(0);
+    application *apps = send_apps_in_directory(0);
+    if (apps != NULL) {
+        for (size_t i = 0; apps[i].appName[0] != '\0'; i++) {
+            renderText(cr, apps[i].appName, 10, 50 + i * 40);
+        }
 
+        free(apps);
+    }
     /* drawArc(cr); */
 
     /* Finish drawing before handing the buffer to Wayland */

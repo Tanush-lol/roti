@@ -28,5 +28,6 @@ CMakeFiles/roti.dir/src/wayland/xdg_surface.c.o: \
  /home/tanush/Projects/roti/roti/include/state.h \
  /home/tanush/Projects/roti/roti/include/w11-client.h \
  /home/tanush/Projects/roti/roti/include/xdg-shell-client-protocol.h \
+ /home/tanush/Projects/roti/roti/include/scanner.h \
  /home/tanush/Projects/roti/roti/include/buffer.h \
  /home/tanush/Projects/roti/roti/include/state.h

@@ -4,6 +4,7 @@
 /* Pull in the Wayland and xdg-shell types used by the struct below */
 #include "w11-client.h"
 #include "xdg-shell-client-protocol.h"
+#include "scanner.h"
 
 struct our_state {
     struct wl_display    *wl_display;
@@ -15,6 +16,8 @@ struct our_state {
     struct wl_surface    *wl_surface;
     struct xdg_surface   *xdg_surface;
     struct xdg_toplevel  *xdg_toplevel;
+
+    application *apps;
 };
 
 #endif /* STATE_H */

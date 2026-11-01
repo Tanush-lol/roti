@@ -40,5 +40,6 @@ CMakeFiles/roti.dir/src/wayland/buffer.c.o: \
  /home/tanush/Projects/roti/roti/include/state.h \
  /home/tanush/Projects/roti/roti/include/w11-client.h \
  /home/tanush/Projects/roti/roti/include/xdg-shell-client-protocol.h \
+ /home/tanush/Projects/roti/roti/include/scanner.h \
  /home/tanush/Projects/roti/roti/include/cairo_renderer.h \
  /home/tanush/Projects/roti/roti/include/shm.h

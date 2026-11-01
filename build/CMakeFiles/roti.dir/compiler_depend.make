@@ -159,6 +159,7 @@ CMakeFiles/roti.dir/src/scanner/scanner.c.o: /home/tanush/Projects/roti/roti/src
 
 CMakeFiles/roti.dir/src/wayland/buffer.c.o: /home/tanush/Projects/roti/roti/src/wayland/buffer.c \
   /home/tanush/Projects/roti/roti/include/cairo_renderer.h \
+  /home/tanush/Projects/roti/roti/include/scanner.h \
   /home/tanush/Projects/roti/roti/include/shm.h \
   /home/tanush/Projects/roti/roti/include/state.h \
   /home/tanush/Projects/roti/roti/include/w11-client.h \
@@ -227,6 +228,11 @@ CMakeFiles/roti.dir/src/wayland/buffer.c.o: /home/tanush/Projects/roti/roti/src/
 CMakeFiles/roti.dir/src/wayland/cairo.c.o: /home/tanush/Projects/roti/roti/src/wayland/cairo.c \
   /home/tanush/Projects/roti/roti/include/cairo_renderer.h \
   /home/tanush/Projects/roti/roti/include/scanner.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/flt-eval-method.h \
@@ -241,10 +247,17 @@ CMakeFiles/roti.dir/src/wayland/cairo.c.o: /home/tanush/Projects/roti/roti/src/w
   /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls-narrow.h \
   /usr/include/bits/mathcalls.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/select.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-least.h \
   /usr/include/bits/stdint-uintn.h \
   /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/timesize.h \
   /usr/include/bits/types.h \
@@ -254,16 +267,29 @@ CMakeFiles/roti.dir/src/wayland/cairo.c.o: /home/tanush/Projects/roti/roti/src/w
   /usr/include/bits/types/__fpos_t.h \
   /usr/include/bits/types/__locale_t.h \
   /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
   /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/once_flag.h \
+  /usr/include/bits/types/sigset_t.h \
   /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
   /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wordsize.h \
   /usr/include/cairo/cairo-deprecated.h \
   /usr/include/cairo/cairo-features.h \
   /usr/include/cairo/cairo-version.h \
   /usr/include/cairo/cairo.h \
+  /usr/include/endian.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
@@ -272,9 +298,12 @@ CMakeFiles/roti.dir/src/wayland/cairo.c.o: /home/tanush/Projects/roti/roti/src/w
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
+  /usr/include/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
   /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/types.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h
@@ -330,6 +359,7 @@ CMakeFiles/roti.dir/src/wayland/shm.c.o: /home/tanush/Projects/roti/roti/src/way
 
 CMakeFiles/roti.dir/src/wayland/xdg_surface.c.o: /home/tanush/Projects/roti/roti/src/wayland/xdg_surface.c \
   /home/tanush/Projects/roti/roti/include/buffer.h \
+  /home/tanush/Projects/roti/roti/include/scanner.h \
   /home/tanush/Projects/roti/roti/include/state.h \
   /home/tanush/Projects/roti/roti/include/w11-client.h \
   /home/tanush/Projects/roti/roti/include/xdg-shell-client-protocol.h \
@@ -483,10 +513,6 @@ CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o:
 
 /usr/lib/libXdmcp.so.6:
 
-/usr/lib/libfreetype.so.6:
-
-/usr/lib/libXau.so.6:
-
 /usr/lib32/libpixman-1.so.0:
 
 /usr/lib32/libbrotlicommon.so.1:
@@ -494,6 +520,32 @@ CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a:
+
+/usr/lib/libpixman-1.so.0:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.so:
+
+/usr/lib32/libfreetype.so.6:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.so:
+
+/usr/lib/libbrotlicommon.so.1:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o:
+
+/usr/lib/crtn.o:
+
+/home/tanush/Projects/roti/roti/src/wayland/xdg_surface.c:
+
+/usr/lib/libXext.so.6:
+
+/usr/include/time.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/types/struct_tm.h:
 
 /usr/lib/libpng16.so.16:
 
@@ -504,6 +556,12 @@ CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o:
 /usr/include/bits/getopt_core.h:
 
 /usr/include/bits/types.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o:
+
+/usr/include/bits/environments.h:
+
+/usr/include/sys/select.h:
 
 /home/tanush/Projects/roti/roti/include/state.h:
 
@@ -523,8 +581,6 @@ CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o:
 
 /home/tanush/Projects/roti/roti/src/main.c:
 
-/usr/include/bits/mman-linux.h:
-
 /usr/include/bits/waitflags.h:
 
 /usr/include/bits/mman_ext.h:
@@ -539,7 +595,13 @@ CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdbool.h:
 
-/home/tanush/Projects/roti/roti/src/wayland/xdg_surface.c:
+/usr/include/bits/types/struct_itimerspec.h:
+
+/usr/include/bits/struct_rwlock.h:
+
+/usr/lib/libm.so:
+
+/usr/include/wayland-util.h:
 
 /usr/include/bits/fp-fast.h:
 
@@ -558,8 +620,6 @@ CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o:
 /usr/include/bits/types/FILE.h:
 
 /usr/include/bits/flt-eval-method.h:
-
-/usr/include/bits/posix_opt.h:
 
 /usr/include/sys/cdefs.h:
 
@@ -589,10 +649,6 @@ CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o:
 
 /usr/include/bits/libm-simd-decl-stubs.h:
 
-/usr/include/bits/environments.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o:
-
 /usr/include/bits/floatn-common.h:
 
 /usr/include/bits/mman-map-flags-generic.h:
@@ -611,13 +667,13 @@ CMakeFiles/roti.dir/include/xdg-shell-protocol.c.o:
 
 /usr/include/bits/stdint-least.h:
 
+/usr/include/bits/types/struct_timeval.h:
+
 /usr/include/bits/mman-shared.h:
 
 /usr/include/bits/types/locale_t.h:
 
 /usr/include/bits/wchar.h:
-
-/usr/include/bits/types/struct_tm.h:
 
 /usr/include/bits/libc-header-start.h:
 
@@ -631,6 +687,18 @@ CMakeFiles/roti.dir/src/main.c.o:
 
 /usr/include/bits/types/cookie_io_functions_t.h:
 
+/usr/include/endian.h:
+
+/usr/lib/crti.o:
+
+/usr/include/bits/typesizes.h:
+
+/usr/lib/libfreetype.so.6:
+
+/usr/lib/libXau.so.6:
+
+/usr/include/bits/uintn-identity.h:
+
 /usr/include/cairo/cairo-features.h:
 
 /usr/include/bits/wordsize.h:
@@ -639,6 +707,8 @@ CMakeFiles/roti.dir/src/main.c.o:
 
 /usr/include/fcntl.h:
 
+/usr/include/bits/pthreadtypes-arch.h:
+
 /usr/include/gnu/stubs.h:
 
 /usr/lib/libffi.so.8:
@@ -646,6 +716,10 @@ CMakeFiles/roti.dir/src/main.c.o:
 /usr/include/math.h:
 
 /usr/include/bits/iscanonical.h:
+
+/usr/lib/libgcc_s.so.1:
+
+/usr/include/bits/confname.h:
 
 /usr/include/bits/stdint-uintn.h:
 
@@ -673,6 +747,10 @@ CMakeFiles/roti.dir/src/main.c.o:
 
 /usr/include/bits/mathcalls-narrow.h:
 
+/usr/lib/Scrt1.o:
+
+/usr/include/bits/types/timer_t.h:
+
 /usr/include/sys/mman.h:
 
 /usr/include/unistd.h:
@@ -684,6 +762,8 @@ CMakeFiles/roti.dir/src/main.c.o:
 /usr/include/wayland-client.h:
 
 /usr/include/bits/dirent.h:
+
+/usr/include/bits/byteswap.h:
 
 /usr/lib32/libX11.so.6:
 
@@ -725,23 +805,25 @@ CMakeFiles/roti.dir/src/main.c.o:
 
 /home/tanush/Projects/roti/roti/src/wayland/cairo.c:
 
-/usr/lib/libXext.so.6:
+/usr/include/bits/mman-linux.h:
 
-/usr/include/time.h:
+/usr/include/alloca.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s_asneeded.so:
+/usr/include/bits/posix_opt.h:
 
-/usr/lib/libc.so:
+/usr/include/bits/atomic_wide_counter.h:
 
-/usr/include/cairo/cairo-deprecated.h:
+/usr/include/bits/types/clockid_t.h:
 
-/usr/include/bits/types/struct_itimerspec.h:
+/usr/include/bits/pthreadtypes.h:
 
-/usr/lib32/libxcb-shm.so.0:
+/usr/include/bits/select.h:
 
-/usr/lib/libxcb.so.1:
+/usr/include/bits/struct_mutex.h:
 
-/usr/include/cairo/cairo.h:
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/bits/types/__sigset_t.h:
 
 /usr/include/bits/mathcalls.h:
 
@@ -749,13 +831,27 @@ CMakeFiles/roti.dir/src/main.c.o:
 
 /usr/include/bits/types/clock_t.h:
 
+/usr/lib32/libxcb-shm.so.0:
+
+/usr/lib/libxcb.so.1:
+
+/usr/include/cairo/cairo.h:
+
+/usr/include/bits/types/once_flag.h:
+
+/usr/include/bits/types/sigset_t.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s_asneeded.so:
+
+/usr/lib/libc.so:
+
+/usr/include/cairo/cairo-deprecated.h:
+
+/usr/include/sys/types.h:
+
 /usr/lib32/libXau.so.6:
 
 /usr/include/asm-generic/errno-base.h:
-
-/usr/lib/libbrotlicommon.so.1:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o:
 
 /usr/lib32/libpng16.so.16:
 
@@ -764,35 +860,3 @@ CMakeFiles/roti.dir/src/main.c.o:
 /usr/include/asm-generic/errno.h:
 
 /usr/include/bits/errno.h:
-
-/usr/include/bits/types/clockid_t.h:
-
-/usr/include/errno.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/bits/types/timer_t.h:
-
-/usr/lib/Scrt1.o:
-
-/usr/include/bits/typesizes.h:
-
-/usr/lib/crti.o:
-
-/usr/lib/crtn.o:
-
-/usr/lib/libpixman-1.so.0:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.so:
-
-/usr/include/bits/confname.h:
-
-/usr/lib/libgcc_s.so.1:
-
-/usr/include/wayland-util.h:
-
-/usr/lib/libm.so:
-
-/usr/lib32/libfreetype.so.6:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.so:

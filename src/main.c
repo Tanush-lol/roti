@@ -62,6 +62,7 @@ int main(void)
     // WAYLAND CODE
     struct our_state state = { 0 };
 
+
     const char *display_name    = getenv("WAYLAND_DISPLAY");
     state.wl_display            = wl_display_connect(display_name);
     struct wl_registry *registry = wl_display_get_registry(state.wl_display);
