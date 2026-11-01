@@ -3,7 +3,6 @@
 
 #include <stdint.h>
 
-void drawCairoSquare(uint8_t *pool_data, int width, int height, int offset, int stride);
-const char* sendAppName(const char *str);
+std::vector<application> scan_apps_in_directory(const fs::path& dir_path) 
 
 #endif /* CAIRO_H */
