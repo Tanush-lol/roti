@@ -4,6 +4,7 @@
 #include <string.h>
 #include <math.h>
 #include <stdio.h>
+#include "scanner.h"
 
 /* top left corner's coordinates are 0,0 */
 
@@ -103,7 +104,7 @@ static void drawRoundedSquare(cairo_t *cr)
     cairo_stroke(cr);
 }
 
-static void renderText(cairo_t *cr,const char *str,int x,int y)
+static void renderText(cairo_t *cr,const char *str)
 {
     cairo_select_font_face(cr, "Sans",
                            CAIRO_FONT_SLANT_NORMAL,
@@ -113,14 +114,14 @@ static void renderText(cairo_t *cr,const char *str,int x,int y)
     /* Text colour: black */
     cairo_set_source_rgb(cr, 0.0, 0.0, 0.0);
 
-    cairo_move_to(cr, x, y);
+    // cairo_move_to(cr, x, y);
 
     char label[64];
     snprintf(label, sizeof(label), "(%d)",str);
     cairo_show_text(cr, label);
 }
 
-void draw
+
 
 void drawCairoSquare(uint8_t *pool_data, int width, int height, int offset, int stride)
 {
@@ -144,11 +145,9 @@ void drawCairoSquare(uint8_t *pool_data, int width, int height, int offset, int 
     cairo_stroke(cr);
 
     /* drawArc(cr); */
-    renderText(cr, 100, 30);
-    renderText(cr, 100, 90);
-    renderText(cr, 100, 150);
 
     /* Finish drawing before handing the buffer to Wayland */
+
     cairo_destroy(cr);
     cairo_surface_flush(surface);
     cairo_surface_destroy(surface);
