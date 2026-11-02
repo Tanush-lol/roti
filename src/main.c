@@ -70,6 +70,9 @@ int main(void)
     wl_registry_add_listener(registry, &registry_listener, &state);
     wl_display_roundtrip(state.wl_display);
 
+    if (init_buffers(&state) != 0)
+        return 1;
+
     state.wl_surface  = wl_compositor_create_surface(state.compositor);
     state.xdg_surface = xdg_wm_base_get_xdg_surface(state.wm_base, state.wl_surface);
 

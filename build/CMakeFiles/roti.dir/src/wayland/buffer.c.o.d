@@ -25,6 +25,7 @@ CMakeFiles/roti.dir/src/wayland/buffer.c.o: \
  /usr/include/wayland-version.h /usr/include/wayland-client-protocol.h \
  /usr/include/wayland-client.h \
  /home/tanush/Projects/roti/roti/include/w11-client.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdbool.h \
  /usr/include/string.h /usr/include/sys/mman.h /usr/include/bits/mman.h \
  /usr/include/bits/mman-map-flags-generic.h \
  /usr/include/bits/mman-linux.h /usr/include/bits/mman-shared.h \

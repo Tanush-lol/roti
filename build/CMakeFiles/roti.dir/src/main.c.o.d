@@ -40,6 +40,7 @@ CMakeFiles/roti.dir/src/main.c.o: \
  /home/tanush/Projects/roti/roti/include/w11-client.h \
  /home/tanush/Projects/roti/roti/include/xdg-shell-client-protocol.h \
  /home/tanush/Projects/roti/roti/include/scanner.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdbool.h \
  /home/tanush/Projects/roti/roti/include/shm.h \
  /home/tanush/Projects/roti/roti/include/buffer.h \
  /home/tanush/Projects/roti/roti/include/state.h \

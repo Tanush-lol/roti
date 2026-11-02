@@ -72,3 +72,9 @@ g++ sideQuests/cairo.cpp -o a $(pkg-config --cflags --libs cairo)
 cmake -S . -B build
 cmake --build build -j"$(nproc)"
 ./build/roti
+
+# important 
+Create the pool and the two buffers once at startup.
+Keep them for the lifetime of the surface.
+Only recreate them when the surface size changes.
+Track each buffer’s wl_buffer.release event, so you don’t write into one the compositor is still reading.

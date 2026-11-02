@@ -108,6 +108,7 @@ CMakeFiles/roti.dir/src/main.c.o: /home/tanush/Projects/roti/roti/src/main.c \
   /usr/include/wayland-util.h \
   /usr/include/wayland-version.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdbool.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h
 
@@ -222,6 +223,7 @@ CMakeFiles/roti.dir/src/wayland/buffer.c.o: /home/tanush/Projects/roti/roti/src/
   /usr/include/wayland-util.h \
   /usr/include/wayland-version.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdbool.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h
 
@@ -399,6 +401,7 @@ CMakeFiles/roti.dir/src/wayland/xdg_surface.c.o: /home/tanush/Projects/roti/roti
   /usr/include/wayland-util.h \
   /usr/include/wayland-version.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdbool.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h
 
